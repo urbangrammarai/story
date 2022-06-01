@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.left {
+    float: left;
+    width: 49.9%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.left p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.right_map {
+    float: right;
+    width: 49.9%;
+    height: 100vh;
+    /* padding-top: 3%; */
+}
+
+body {
+    font-family: et-book, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.60;
+    color: #333432;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 20px 0;
+    font-family: et-book, "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-shadow: none;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 80px;
+    padding-top: 200px;
+}
+
+h3 {
+    font-size: 1.55em;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h1 {
+    text-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    margin: auto;
+    position: relative;
+    display: block;
+    font-weight: 100;
+    background: #ffffff;
+    border: 1px solid #bc5b4f;
+    text-decoration: none;
+    color: #bc5b4f;
+    padding: 15px 20px;
+    transition: 0.225s ease all;
+    overflow: hidden;
+    will-change: transform;
+    box-shadow: 3px 3px 0px rgba(188, 91, 79, 0.5);
+    font-family: et-book, "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+    transform: translate(-4px, -4px);
+    box-shadow: 7px 7px 0px rgba(188, 91, 79, 0.3);
+    color: #3b6e8c;
+}
+
+button.clicked {
+    cursor: pointer;
+    transform: translate(3px, 3px) !important;
+    box-shadow: 0px 0px 0px #bc5b4f !important;
+    border: 1px solid rgba(188, 91, 79, 0.5);
+}
+
+p#intro {
+    margin-bottom: 50px
+}
+
+.full {
+    width: 60%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 0 20% 0 20%;
+}
+
+div.portraits {
+    width: 60%;
+    display: block;
+    float: left;
+    padding: 75px 20% 0 20%;
+    font-size: 20px;
+}
+
+div.pp_left {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+div.pp_right {
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+.footer {
+    background-color: #3b6e8c09;
+    padding-bottom: 200px;
+    /* padding-top: 100px; */
+}
