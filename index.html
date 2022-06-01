@@ -47,7 +47,7 @@
             </a>
         </div>
     </div>
-    <div class="right_map">
+    <div id="right_map">
         <iframe src="https://urbangrammarai.xyz/great-britain/#" width="100%" height="100%" style="border: none;"></iframe>
     </div>
     <div class="full">
@@ -324,10 +324,68 @@
 
     <div class="full">
         <h2 id="building">Building Spatial Signatures</h2>
-        <p> How are spatial signatures created? Section to be filled.
+        <p>How are spatial signatures created?
         </p>
     </div>
-
+    <div class="portraits">
+        <div class="blg_left">
+            The journey towards spatial signatures starts with a collection of barriers. We consider street network, railway lines, rivers and a coastline.
+        </div>
+        <div class="blg_right">
+            <img src="img/01_barriers.svg" alt="barriers">
+        </div>
+    </div>
+    <div class="portraits">
+        <div class="blg_left">
+            All these barriers are considered together to subdivide space into areas fully enclosed by the barriers. We call these areas <em>enclosures.</em>
+        </div>
+        <div class="blg_right">
+            <img src="img/02_enclosures.svg" alt="enclosures">
+        </div>
+    </div>
+    <div class="portraits">
+        <div class="blg_left">
+            Enclosures are then combined with building footprints. Those take the role of anchors that do not partition space but act as origins to which the rest can be “attached”. </div>
+        <div class="blg_right">
+            <img src="img/03_enclosures_footprints.svg" alt="enclosures+footprints">
+        </div>
+    </div>
+    <div class="portraits">
+        <div class="blg_left">
+            The combination of enclosures and anchors results in a set of even smaller areas, called <em>enclosed tessellation cells.</em> Those delineate areas within enclosures that are closest to each individual building footprint.
+        </div>
+        <div class="blg_right">
+            <img src="img/04_et_footprints.svg" alt="footprints">
+        </div>
+    </div>
+    <div class="portraits">
+        <div class="blg_left">
+            Having the basic spatial unit, we link a large number of descriptive characters capturing form and function to each tessellation cell.
+        </div>
+        <div class="blg_right">
+            <img src="img/05_form_function.svg" alt="form function">
+        </div>
+    </div>
+    <div class="portraits">
+        <div class="blg_left">
+            All these values are used within a cluster analysis, attempting to find the cells that are most similar to each other. Eventually, we identify a small number (16 in the case of GB) of classes of cells.
+        </div>
+        <div class="blg_right">
+            <img src="img/06_clusters.svg" alt="clusters">
+        </div>
+    </div>
+    <div class="portraits">
+        <div class="blg_left">
+            Cells belonging to the same class that are also next to each other are then combined to a single geometry, that we call a <em>spatial signature.</em>
+        </div>
+        <div class="blg_right">
+            <img src="img/07_signatures.svg" alt="signatures">
+        </div>
+    </div>
+    <div class="full">
+        <p>The resulting map of signatures is shown <a href="#right_map">above</a>.
+        </p>
+    </div>
 
     <div class="full footer">
         <h2 id="what">Where now?</h2>
