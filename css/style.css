@@ -37,9 +37,9 @@ html {
 .left {
     float: left;
     width: 49.9%;
-    height: 100%;
+    height: 100vh;
     text-align: center;
-    padding-top: 20%;
+    position: relative;
 }
 
 .left p {
@@ -79,6 +79,7 @@ h6 {
 
 h1 {
     font-size: 80px;
+    padding-top: 35%;
 }
 
 h2 {
@@ -105,7 +106,7 @@ a {
 }
 
 button {
-    margin: auto;
+    margin: auto auto 5% auto;
     position: relative;
     display: block;
     font-weight: 100;
@@ -138,6 +139,14 @@ button.clicked {
 
 p#intro {
     margin-bottom: 50px
+}
+
+.imgs {
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 .full {
@@ -203,10 +212,10 @@ a {
     .left {
         float: none;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         text-align: center;
-        padding-top: 20%;
-        padding-bottom: 10%;
+        /* padding-top: 20%; */
+        /* padding-bottom: 10%; */
     }
     #right_map {
         float: none;
@@ -244,4 +253,10 @@ a {
         width: 90%;
         float: none;
     } */
+    h1 {
+        font-size: 60px;
+        padding-top: 25%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }
