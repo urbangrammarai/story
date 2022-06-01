@@ -208,6 +208,12 @@ a {
     transition: color .15s ease;
 }
 
+.copy {
+    font-size: 20px;
+    margin-top: 100px;
+    color: #3b6e8c;
+}
+
 @media only screen and (max-width: 800px) {
     .left {
         float: none;
