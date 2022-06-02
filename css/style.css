@@ -79,7 +79,8 @@ h6 {
 
 h1 {
     font-size: 80px;
-    padding-top: 35%;
+    padding-top: 20%;
+    text-shadow: none;
 }
 
 h2 {
@@ -97,16 +98,12 @@ h4 {
     font-size: 1em;
 }
 
-h1 {
-    text-shadow: none;
-}
-
 a {
     text-decoration: none;
 }
 
-button {
-    margin: auto auto 5% auto;
+button.butt {
+    margin: auto auto 2% auto;
     position: relative;
     display: block;
     font-weight: 100;
@@ -122,15 +119,15 @@ button {
     font-family: et-book, "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
 }
 
-button:hover,
-button:focus {
+button.butt:hover,
+button.butt:focus {
     cursor: pointer;
     transform: translate(-4px, -4px);
     box-shadow: 7px 7px 0px rgba(188, 91, 79, 0.3);
     color: #3b6e8c;
 }
 
-button.clicked {
+button.butt.clicked {
     cursor: pointer;
     transform: translate(3px, 3px) !important;
     box-shadow: 0px 0px 0px #bc5b4f !important;
@@ -211,14 +208,13 @@ a {
 .copy {
     font-size: 20px;
     margin-top: 100px;
-    color: #3b6e8c;
+    color: #8fa37e;
 }
 
 @media only screen and (max-width: 800px) {
     .left {
         float: none;
         width: 100%;
-        height: 100vh;
         text-align: center;
         /* padding-top: 20%; */
         /* padding-bottom: 10%; */
@@ -264,5 +260,19 @@ a {
         padding-top: 25%;
         padding-left: 2%;
         padding-right: 2%;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .left {
+        height: auto;
+        position: auto;
+    }
+    .imgs {
+        vertical-align: auto;
+        position: relative;
+        bottom: auto;
+        padding-bottom: 5%;
+        padding-top: 5%;
     }
 }

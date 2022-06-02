@@ -20,18 +20,19 @@ var mapUrl = "https://urbangrammarai.xyz/great-britain/tiles/{z}/{x}/{y}.pbf";
 // define styling of vector tiles
 var vectorTileStyling = {
     signatures_combined_levels_clipped_4326: function(properties, zoom) {
-        var fill = false;
+        var fill = true;
         var weight = 0;
         if (properties.signature_type ==
             "5_0") {
-            fill = true;
+            fill = false;
             weight = 1;
         }
         return ({
             fill: fill,
             weight: weight,
             color: "#ffffff",
-            fillOpacity: 0.3,
+            fillColor: "#000000",
+            fillOpacity: 0.5,
             opacity: 1.0,
         });
     }
