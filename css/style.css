@@ -40,6 +40,7 @@ html {
     height: 100vh;
     text-align: center;
     position: relative;
+    font-size: 20px;
 }
 
 .left p {
@@ -79,7 +80,7 @@ h6 {
 
 h1 {
     font-size: 80px;
-    padding-top: 20%;
+    padding-top: 10%;
     text-shadow: none;
 }
 
@@ -134,8 +135,16 @@ button.butt.clicked {
     border: 1px solid rgba(188, 91, 79, 0.5);
 }
 
-p#intro {
+h1#intro {
     margin-bottom: 50px
+}
+
+.pleft {
+    text-align: justify;
+}
+
+.hlg {
+    background-color: rgba(239, 199, 88, 0.75)
 }
 
 .imgs {
@@ -185,7 +194,6 @@ div.blg_right {
 .footer {
     background-color: #3b6e8c09;
     padding-bottom: 200px;
-    /* padding-top: 100px; */
 }
 
 div.sigmap {
@@ -207,6 +215,14 @@ a {
     font-size: 20px;
     margin-top: 100px;
     color: #8fa37e;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.last {
+    margin-bottom: 160px;
 }
 
 @media only screen and (max-width: 800px) {
