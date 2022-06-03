@@ -31,27 +31,26 @@
     <div class="left">
         <h1 id="intro">Urban Grammar</h1>
         <p><i>What are the building blocks of British cities?</i>
-        <p><i>Do form and function relate to each other?</i>
-        <p><i>How do they unfold over space and time?</i>
-        <p>A research project to characterise British urban form and
-        function through the notion of <i>spatial signatures</i>.</p>
-        <!-- partial:index.partial.html -->
-        <button class="butt" onclick="location.href='#ss'">Signatures in Great Britain</button>
-        <button class="butt" onclick="location.href='#building'">Building Signatures</button>
-        <button class="butt" onclick="location.href='#what'">Find out more</button>
-        <!-- partial -->
+            <p><i>Do form and function relate to each other?</i>
+                <p><i>How do they unfold over space and time?</i>
+                    <p>A research project to characterise British urban form and function through the notion of <i>spatial signatures</i>.</p>
+                    <!-- partial:index.partial.html -->
+                    <button class="butt" onclick="location.href='#ss'">Signatures in Great Britain</button>
+                    <button class="butt" onclick="location.href='#building'">Building Signatures</button>
+                    <button class="butt" onclick="location.href='#what'">Find out more</button>
+                    <!-- partial -->
 
-        <div class="imgs">
-            <a href="https://www.liverpool.ac.uk/geographic-data-science/">
-                <img src="img/gdsl.png" alt="GDSL" width="25%" style="margin-right: 20px; vertical-align: middle;">
-            </a>
-            <a href="https://www.liverpool.ac.uk/">
-                <img src="img/liv_logo.png" alt="University of Liverpool" width="25%" style="margin-right: 20px; vertical-align: middle">
-            </a>
-            <a href="https://www.turing.ac.uk/">
-                <img src="img/ati_logo.png" alt="ATI" width="25%" style="vertical-align: middle">
-            </a>
-        </div>
+                    <div class="imgs">
+                        <a href="https://www.liverpool.ac.uk/geographic-data-science/">
+                            <img src="img/gdsl.png" alt="GDSL" width="25%" style="margin-right: 20px; vertical-align: middle;">
+                        </a>
+                        <a href="https://www.liverpool.ac.uk/">
+                            <img src="img/liv_logo.png" alt="University of Liverpool" width="25%" style="margin-right: 20px; vertical-align: middle">
+                        </a>
+                        <a href="https://www.turing.ac.uk/">
+                            <img src="img/ati_logo.png" alt="ATI" width="25%" style="vertical-align: middle">
+                        </a>
+                    </div>
     </div>
     <div id="right_map">
         <iframe src="https://urbangrammarai.xyz/great-britain/#" width="100%" height="100%" style="border: none;"></iframe>
@@ -59,18 +58,12 @@
     <div class="full">
         <h2 id="ss">Form & Function in Great Britain</h2>
         <p class='pleft'>
-        The Urban Grammar project describes the British landscape through a series of types that capture
-        the way places look like (<i>form</i>) and the activities that take place within
-        them (<i>function</i>).
-        Each type is built using millions of granular data points and machine
-        learning, producing a distinct and unique character that emerges from
-        a combination of traits. We call these bundles of form and function
-        <span class='hlg'><i>spatial signatures</i></span>, and they are the core building blocks of
-        the Urban Grammar.
+            The Urban Grammar project describes the British landscape through a series of types that capture the way places look like (<i>form</i>) and the activities that take place within them (<i>function</i>). Each type is built using millions of
+            granular data points and machine learning, producing a distinct and unique character that emerges from a combination of traits. We call these bundles of form and function
+            <span class='hlg'><i>spatial signatures</i></span>, and they are the core building blocks of the Urban Grammar.
         </p>
         <p class='pleft'>
-        Below you can find the “<span class='hlg'>pen portraits</span>” of each signature, shorthand
-        descriptions of the main characteristics that describe them.
+            Below you can find the “<span class='hlg'>pen portraits</span>” of each signature, shorthand descriptions of the main characteristics that describe them.
         </p>
     </div>
 
@@ -356,8 +349,7 @@
     </div>
     <div class="portraits">
         <div class="blg_left">
-            All these barriers are considered together to subdivide space into
-            areas fully enclosed by the barriers. We call these areas
+            All these barriers are considered together to subdivide space into areas fully enclosed by the barriers. We call these areas
             <span class='hlg'><em>enclosures</em></span>.
         </div>
         <div class="blg_right">
@@ -373,8 +365,7 @@
     </div>
     <div class="portraits">
         <div class="blg_left">
-            The combination of enclosures and anchors results in a set of more
-            granular areas we call <span class='hlg'><em>enclosed tessellation
+            The combination of enclosures and anchors results in a set of more granular areas we call <span class='hlg'><em>enclosed tessellation
             (ET) cells</em></span>.
             <!--Those delineate areas within enclosures that are closest to
                     each individual building footprint.-->
@@ -386,9 +377,7 @@
     </div>
     <div class="portraits">
         <div class="blg_left">
-                We next use ET cells to bring together a large number of
-                features, or <span class='hlg'>characters</span>, capturing
-                form and function and link them to each ET cell.
+            We next use ET cells to bring together a large number of features, or <span class='hlg'>characters</span>, capturing form and function and link them to each ET cell.
         </div>
         <div class="blg_right">
             <img src="img/05_form_function.svg" alt="form function">
@@ -397,8 +386,7 @@
     <div class="portraits">
         <div class="blg_left">
             All these values are fed to a machine learning algorithm to
-            <span class='hlg'>cluster</span> similar ET cells in groups. In Britain, this step allows
-            us to synthesise over 300 characters in 16 classes.
+            <span class='hlg'>cluster</span> similar ET cells in groups. In Britain, this step allows us to synthesise over 300 characters in 16 classes.
         </div>
         <div class="blg_right">
             <img src="img/06_clusters.svg" alt="clusters">
@@ -406,39 +394,33 @@
     </div>
     <div class="portraits">
         <div class="blg_left">
-            Cells belonging to the same class that are also geographically
-            next to each other are then combined into a single geometry,
-            generating a portion of land that we call a <span class='hlg'><em>spatial signature</em></span>.
+            Cells belonging to the same class that are also geographically next to each other are then combined into a single geometry, generating a portion of land that we call a <span class='hlg'><em>spatial signature</em></span>.
         </div>
         <div class="blg_right">
             <img src="img/07_signatures.svg" alt="signatures">
         </div>
     </div>
-    <div class="full">
-        <p>The result of this process is a
-            map that divides the whole of Great Britain into consistent signatures.
+    <div class="full last">
+        <p>The result of this process is a map that divides the whole of Great Britain into consistent signatures.
         </p>
-            <button class="butt" onclick="location.href='http://urbangrammarai.xyz/great-britain/#'" style="display: inline">Explore the map</button>
-            <button class="butt" onclick="location.href='#'" style="display:
+        <button class="butt" onclick="location.href='http://urbangrammarai.xyz/great-britain/#'" style="display: inline">Explore the map</button>
+        <button class="butt" onclick="location.href='#'" style="display:
                     inline">Jump back up</button>
     </div>
 
     <div class="full footer">
         <h2 id="what">Find out more</h2>
         <p>
-        The Urban Grammar is brought to you by Dani and Martin. 
-        We are always happy to start a conversation, get in touch with us via email or Twitter:
-        <ul>
-                <li> <a
-                href='https://darribas.org'>Dani Arribas-Bel</a> |
-        <a href='https://twitter.com/darribas'><code>@darribas</code></a>
-        <br>
-                        <code>d.arribas-bel[at]liverpool.ac.uk</code> </li>
-                <li> <a
-                href='https://martinfleischmann.net/'>Martin Fleischmann</a> |
-        <a href='https://twitter.com/martinfleis'><code>@martinfleis</code></a> <br>
-                        <code>m.fleischmann[at]liverpool.ac.uk</code> </li>
-        </ul>
+            The Urban Grammar is brought to you by Dani and Martin. We are always happy to start a conversation, get in touch with us via email or Twitter:
+            <ul>
+                <li> <a href='https://darribas.org'>Dani Arribas-Bel</a> |
+                    <a href='https://twitter.com/darribas'><code>@darribas</code></a>
+                    <br>
+                    <code>d.arribas-bel[at]liverpool.ac.uk</code> </li>
+                <li> <a href='https://martinfleischmann.net/'>Martin Fleischmann</a> |
+                    <a href='https://twitter.com/martinfleis'><code>@martinfleis</code></a> <br>
+                    <code>m.fleischmann[at]liverpool.ac.uk</code> </li>
+            </ul>
         </p>
 
         <center>
@@ -460,8 +442,7 @@
                 <img src="img/ati_logo.png" alt="ATI" width="25%" style="vertical-align: middle">
             </a>
         </div>
-        <p class="copy">(c) Martin Fleischmann & Dani Arribas-Bel, Geographic
-        Data Science Lab, University of Liverpool; The Alan Turing Institute</p>
+        <p class="copy">(c) Martin Fleischmann & Dani Arribas-Bel, Geographic Data Science Lab, University of Liverpool; The Alan Turing Institute</p>
     </div>
 </body>
 
