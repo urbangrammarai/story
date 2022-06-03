@@ -134,8 +134,16 @@ button.butt.clicked {
     border: 1px solid rgba(188, 91, 79, 0.5);
 }
 
-p#intro {
+h1#intro {
     margin-bottom: 50px
+}
+
+.pleft {
+    text-align: justify;
+}
+
+.hlg {
+    background-color: rgba(239, 199, 88, 0.75)
 }
 
 .imgs {
