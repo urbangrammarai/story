@@ -1,7 +1,7 @@
 // create map
 var map00 = L.map("0_0", {
     center: [51.95, -1.62],
-    zoom: 9,
+    zoom: 11,
     minZoom: 6,
     maxZoom: 15,
     zoomControl: true,
