@@ -38,14 +38,14 @@ var vectorTileStyling = {
     }
 };
 
-map91.on('click', function(e) {
-    var lt = String(e.latlng.lat),
-        lg = String(e.latlng.lng);
-    var popup = L.popup()
-        .setLatLng(e.latlng)
-        .setContent(lt + " " + lg)
-        .openOn(map91);
-});
+// map91.on('click', function(e) {
+//     var lt = String(e.latlng.lat),
+//         lg = String(e.latlng.lng);
+//     var popup = L.popup()
+//         .setLatLng(e.latlng)
+//         .setContent(lt + " " + lg)
+//         .openOn(map91);
+// });
 
 
 // define options of vector tiles
