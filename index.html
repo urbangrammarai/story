@@ -14,8 +14,12 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- load leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
 
     <!-- load VectorGrid extension -->
     <script src="https://unpkg.com/leaflet.vectorgrid@1.3.0/dist/Leaflet.VectorGrid.bundled.js"></script>
@@ -31,39 +35,47 @@
     <div class="left">
         <h1 id="intro">Urban Grammar</h1>
         <p><i>What are the building blocks of British cities?</i>
-            <p><i>Do form and function relate to each other?</i>
-                <p><i>How do they unfold over space and time?</i>
-                    <p>A research project to characterise British urban form and function through the notion of <i>spatial signatures</i>.</p>
-                    <!-- partial:index.partial.html -->
-                    <button class="butt" onclick="location.href='#ss'">Signatures in Great Britain</button>
-                    <button class="butt" onclick="location.href='#building'">Building Signatures</button>
-                    <button class="butt" onclick="location.href='#what'">Find out more</button>
-                    <!-- partial -->
+        <p><i>Do form and function relate to each other?</i>
+        <p><i>How do they unfold over space and time?</i>
+        <p>A research project to characterise British urban form and function through the notion of <i>spatial
+                signatures</i>.</p>
+        <!-- partial:index.partial.html -->
+        <button class="butt" onclick="location.href='#ss'">Signatures in Great Britain</button>
+        <button class="butt" onclick="location.href='#building'">Building Signatures</button>
+        <button class="butt" onclick="location.href='#what'">Find out more</button>
+        <!-- partial -->
 
-                    <div class="imgs">
-                        <a href="https://www.liverpool.ac.uk/geographic-data-science/">
-                            <img src="img/gdsl.png" alt="GDSL" width="25%" style="margin-right: 20px; vertical-align: middle;">
-                        </a>
-                        <a href="https://www.liverpool.ac.uk/">
-                            <img src="img/liv_logo.png" alt="University of Liverpool" width="25%" style="margin-right: 20px; vertical-align: middle">
-                        </a>
-                        <a href="https://www.turing.ac.uk/">
-                            <img src="img/ati_logo.png" alt="ATI" width="25%" style="vertical-align: middle">
-                        </a>
-                    </div>
+        <div class="imgs">
+            <a href="https://www.liverpool.ac.uk/geographic-data-science/">
+                <img src="img/gdsl.png" alt="GDSL" width="25%" style="margin-right: 20px; vertical-align: middle;">
+            </a>
+            <a href="https://www.liverpool.ac.uk/">
+                <img src="img/liv_logo.png" alt="University of Liverpool" width="25%"
+                    style="margin-right: 20px; vertical-align: middle">
+            </a>
+            <a href="https://www.turing.ac.uk/">
+                <img src="img/ati_logo.png" alt="ATI" width="25%" style="vertical-align: middle">
+            </a>
+        </div>
     </div>
     <div id="right_map">
-        <iframe src="https://urbangrammarai.xyz/great-britain/#" width="100%" height="100%" style="border: none;"></iframe>
+        <iframe src="https://urbangrammarai.xyz/great-britain/#" width="100%" height="100%"
+            style="border: none;"></iframe>
     </div>
     <div class="full">
         <h2 id="ss">Form & Function in Great Britain</h2>
         <p class='pleft'>
-            The Urban Grammar project describes the British landscape through a series of types that capture the way places look like (<i>form</i>) and the activities that take place within them (<i>function</i>). Each type is built using millions of
-            granular data points and machine learning, producing a distinct and unique character that emerges from a combination of traits. We call these bundles of form and function
-            <span class='hlg'><i>spatial signatures</i></span>, and they are the core building blocks of the Urban Grammar.
+            The Urban Grammar project describes the British landscape through a series of types that capture the way
+            places look like (<i>form</i>) and the activities that take place within them (<i>function</i>). Each type
+            is built using millions of
+            granular data points and machine learning, producing a distinct and unique character that emerges from a
+            combination of traits. We call these bundles of form and function
+            <span class='hlg'><i>spatial signatures</i></span>, and they are the core building blocks of the Urban
+            Grammar.
         </p>
         <p class='pleft'>
-            Below you can find the “<span class='hlg'>pen portraits</span>” of each signature, shorthand descriptions of the main characteristics that describe them.
+            Below you can find the “<span class='hlg'>pen portraits</span>” of each signature, shorthand descriptions of
+            the main characteristics that describe them.
         </p>
     </div>
 
@@ -71,8 +83,11 @@
         <div class="pp_left">
             <h3>Wild countryside</h3>
 
-            In “Wild countryside”, human influence is the least intensive. This signature covers large open spaces in the countryside where no urbanisation happens apart from occasional roads, cottages, and pastures. You can find it across the Scottish Highlands,
-            numerous national parks such as Lake District, or in the majority of Wales.</div>
+            In “Wild countryside”, human influence is the least intensive. This signature covers large open spaces in
+            the countryside where no urbanisation happens apart from occasional roads, cottages, and pastures. You can
+            find it across the Scottish Highlands,
+            numerous national parks such as Lake District, or in the majority of Wales.
+        </div>
         <div class="pp_right">
 
             <!-- div containing map -->
@@ -87,7 +102,9 @@
         <div class="pp_right">
             <h3>Countryside agriculture</h3>
 
-            “Countryside agriculture” features much of the English countryside and displays a high degree of agriculture including both fields and pastures. There are a few buildings scattered across the area but, for the most part, it is green space.
+            “Countryside agriculture” features much of the English countryside and displays a high degree of agriculture
+            including both fields and pastures. There are a few buildings scattered across the area but, for the most
+            part, it is green space.
         </div>
         <div class="pp_left">
 
@@ -102,7 +119,9 @@
         <div class="pp_left">
             <h3>Urban buffer</h3>
 
-            “Urban buffer” can be characterised as a green belt around cities. This signature includes mostly agricultural land in the immediate adjacency of towns and cities, often including edge development. It still feels more like countryside than urban, but
+            “Urban buffer” can be characterised as a green belt around cities. This signature includes mostly
+            agricultural land in the immediate adjacency of towns and cities, often including edge development. It still
+            feels more like countryside than urban, but
             these signatures are much smaller compared to other countryside types.
         </div>
         <div class="pp_right">
@@ -120,7 +139,9 @@
             <h3>Open sprawl
             </h3>
 
-            “Open sprawl” represents the transition between countryside and urbanised land. It is located in the outskirts of cities or around smaller towns and is typically made up of large open space areas intertwined with different kinds of human development,
+            “Open sprawl” represents the transition between countryside and urbanised land. It is located in the
+            outskirts of cities or around smaller towns and is typically made up of large open space areas intertwined
+            with different kinds of human development,
             from highways to smaller neighbourhoods.
         </div>
         <div class="pp_left">
@@ -136,7 +157,9 @@
         <div class="pp_left">
             <h3>Disconnected suburbia</h3>
 
-            “Disconnected suburbia” includes residential developments in the outskirts of cities or even towns and villages with convoluted, disconnected street networks, low built-up and population densities, and lack of jobs and services. This signature type is
+            “Disconnected suburbia” includes residential developments in the outskirts of cities or even towns and
+            villages with convoluted, disconnected street networks, low built-up and population densities, and lack of
+            jobs and services. This signature type is
             entirely car-dependent.
         </div>
         <div class="pp_right">
@@ -154,8 +177,11 @@
             <h3>Accessible suburbia
             </h3>
 
-            “Accessible suburbia” covers residential development on the urban periphery with a relatively legible and connected street network, albeit less so than other more urban signature types. Areas in this signature feature low density, both in terms of population
-            and built-up area, lack of jobs and services. For these reasons, “accessible suburbia” largely acts as dormitories.
+            “Accessible suburbia” covers residential development on the urban periphery with a relatively legible and
+            connected street network, albeit less so than other more urban signature types. Areas in this signature
+            feature low density, both in terms of population
+            and built-up area, lack of jobs and services. For these reasons, “accessible suburbia” largely acts as
+            dormitories.
         </div>
         <div class="pp_left">
 
@@ -170,8 +196,11 @@
         <div class="pp_left">
             <h3>Warehouse/Park land</h3>
 
-            “Warehouse/Park land” covers predominantly industrial areas and other work-related developments made of box-like buildings with large footprints. It contains many jobs of manual nature such as manufacturing or construction, and very little population
-            live here compared to the rest of urban areas. Occasionally this type also covers areas of parks with large scale green open areas.
+            “Warehouse/Park land” covers predominantly industrial areas and other work-related developments made of
+            box-like buildings with large footprints. It contains many jobs of manual nature such as manufacturing or
+            construction, and very little population
+            live here compared to the rest of urban areas. Occasionally this type also covers areas of parks with large
+            scale green open areas.
         </div>
         <div class="pp_right">
             <!-- div containing map -->
@@ -186,7 +215,9 @@
         <div class="pp_right">
             <h3>Gridded residential quarters</h3>
 
-            “Gridded residential quarters” are areas with street networks forming a well-connected grid-like (high density of 4-way intersections) pattern, resulting in places with smaller blocks and higher granularity. This signature is mostly residential but includes
+            “Gridded residential quarters” are areas with street networks forming a well-connected grid-like (high
+            density of 4-way intersections) pattern, resulting in places with smaller blocks and higher granularity.
+            This signature is mostly residential but includes
             some services and jobs, and it tends to be located away from city centres.
         </div>
         <div class="pp_left">
@@ -202,7 +233,9 @@
         <div class="pp_left">
             <h3>Connected residential neighbourhoods</h3>
 
-            “Connected residential neighbourhoods” are relatively dense urban areas, both in terms of population and built-up area, that tend to be formed around well-connected street networks. They have access to services and some jobs but may be further away from
+            “Connected residential neighbourhoods” are relatively dense urban areas, both in terms of population and
+            built-up area, that tend to be formed around well-connected street networks. They have access to services
+            and some jobs but may be further away from
             city centres leading to higher dependency on cars and public transport for their residents.
         </div>
         <div class="pp_right">
@@ -220,7 +253,9 @@
             <h3>Dense residential neighbourhoods
             </h3>
 
-            A “dense residential neighbourhood” is an abundant signature often covering large parts of cities outside of their centres. It has primarily residential purpose and high population density, varied street network patterns, and some services and jobs but
+            A “dense residential neighbourhood” is an abundant signature often covering large parts of cities outside of
+            their centres. It has primarily residential purpose and high population density, varied street network
+            patterns, and some services and jobs but
             not in high intensity.
         </div>
         <div class="pp_left">
@@ -238,7 +273,9 @@
             <h3>Dense urban neighbourhoods
             </h3>
 
-            “Dense urban neighbourhoods” are areas of inner-city with high population and built-up density of a predominantly residential nature but with direct access to jobs and services. This signature type tends to be relatively walkable and, in the case of some
+            “Dense urban neighbourhoods” are areas of inner-city with high population and built-up density of a
+            predominantly residential nature but with direct access to jobs and services. This signature type tends to
+            be relatively walkable and, in the case of some
             towns, may even form their centres.
         </div>
         <div class="pp_right">
@@ -256,7 +293,9 @@
         <div class="pp_right">
             <h3>Local urbanity</h3>
 
-            “Local urbanity” reflects town centres, outer parts of city centres or even district centres. In all cases, this signature is very much urban in essence, combining high population and built-up density, access to amenities and jobs. Yet, it is on the lower
+            “Local urbanity” reflects town centres, outer parts of city centres or even district centres. In all cases,
+            this signature is very much urban in essence, combining high population and built-up density, access to
+            amenities and jobs. Yet, it is on the lower
             end of the hierarchy of signature types denoting urban centres with only a local significance.
         </div>
         <div class="pp_left">
@@ -272,7 +311,9 @@
             <h3>Regional urbanity
             </h3>
 
-            “Regional urbanity” captures centres of mid-size cities with regional importance such as Liverpool, Plymouth or Newcastle upon Tyne. It is often encircled by “Local urbanity” signatures and can form outer rings of city centres in large cities. It features
+            “Regional urbanity” captures centres of mid-size cities with regional importance such as Liverpool, Plymouth
+            or Newcastle upon Tyne. It is often encircled by “Local urbanity” signatures and can form outer rings of
+            city centres in large cities. It features
             high population density, as well as a high number of jobs and amenities within walkable distance.
         </div>
         <div class="pp_right">
@@ -289,8 +330,11 @@
             <h3>Metropolitan urbanity
             </h3>
 
-            Signature type “Metropolitan urbanity” captures the centre of the largest cities in Great Britain such as Glasgow, Birmingham or Manchester. It is characterised by a very high number of jobs in the area, high built-up density and often high population
-            density. This type serves as the core centre of the entire metropolitan areas. </div>
+            Signature type “Metropolitan urbanity” captures the centre of the largest cities in Great Britain such as
+            Glasgow, Birmingham or Manchester. It is characterised by a very high number of jobs in the area, high
+            built-up density and often high population
+            density. This type serves as the core centre of the entire metropolitan areas.
+        </div>
         <div class="pp_left">
             <!-- div containing map -->
             <div id="9_4" class="sigmap"></div>
@@ -304,8 +348,12 @@
         <div class="pp_left">
             <h3>Concentrated urbanity</h3>
 
-            Concentrated urbanity” is a signature type found in the city centre of London and nowhere else in Great Britain. It reflects the uniqueness of London in the British context with an extremely high number of jobs and amenities located nearby, as well as
-            high built-up and population densities. Buildings in this signature are large and tightly packed, forming complex shapes with courtyards and little green space.</div>
+            Concentrated urbanity” is a signature type found in the city centre of London and nowhere else in Great
+            Britain. It reflects the uniqueness of London in the British context with an extremely high number of jobs
+            and amenities located nearby, as well as
+            high built-up and population densities. Buildings in this signature are large and tightly packed, forming
+            complex shapes with courtyards and little green space.
+        </div>
         <div class="pp_right">
             <!-- div containing map -->
             <div id="9_1" class="sigmap"></div>
@@ -319,8 +367,12 @@
         <div class="pp_right">
             <h3>Hyper concentrated urbanity</h3>
 
-            The epitome of urbanity in the British context. “Hyper concentrated urbanity" is a signature type present only in the centre of London, around the Soho district, and covering Oxford and Regent streets. This signature is the result of centuries of urban
-            primacy, with a multitude of historical layers interwoven, very high built-up and population density, and extreme abundance of amenities, services and jobs. </div>
+            The epitome of urbanity in the British context. “Hyper concentrated urbanity" is a signature type present
+            only in the centre of London, around the Soho district, and covering Oxford and Regent streets. This
+            signature is the result of centuries of urban
+            primacy, with a multitude of historical layers interwoven, very high built-up and population density, and
+            extreme abundance of amenities, services and jobs.
+        </div>
         <div class="pp_left">
             <!-- div containing map -->
             <div id="9_5" class="sigmap"></div>
@@ -348,7 +400,8 @@
     </div>
     <div class="portraits">
         <div class="blg_left">
-            All these barriers are considered together to subdivide space into areas fully enclosed by the barriers. We call these areas
+            All these barriers are considered together to subdivide space into areas fully enclosed by the barriers. We
+            call these areas
             <span class='hlg'><em>enclosures</em></span>.
         </div>
         <div class="blg_right">
@@ -357,15 +410,18 @@
     </div>
     <div class="portraits">
         <div class="blg_left">
-            Enclosures are then combined with building footprints. Those take the role of <span class='hlg'>anchors</span> that do not partition space but act as origins to which the rest can be “attached”. </div>
+            Enclosures are then combined with building footprints. Those take the role of <span
+                class='hlg'>anchors</span> that do not partition space but act as origins to which the rest can be
+            “attached”. </div>
         <div class="blg_right">
             <img src="img/03_enclosures_footprints.svg" alt="enclosures+footprints">
         </div>
     </div>
     <div class="portraits">
         <div class="blg_left">
-            The combination of enclosures and anchors results in a set of more granular areas we call <span class='hlg'><em>enclosed tessellation
-            (ET) cells</em></span>.
+            The combination of enclosures and anchors results in a set of more granular areas we call <span
+                class='hlg'><em>enclosed tessellation
+                    (ET) cells</em></span>.
             <!--Those delineate areas within enclosures that are closest to
                     each individual building footprint.-->
             In Britain alone, there is more than 14 million of them!
@@ -376,7 +432,8 @@
     </div>
     <div class="portraits">
         <div class="blg_left">
-            We next use ET cells to bring together a large number of features, or <span class='hlg'>characters</span>, capturing form and function and link them to each ET cell.
+            We next use ET cells to bring together a large number of features, or <span class='hlg'>characters</span>,
+            capturing form and function and link them to each ET cell.
         </div>
         <div class="blg_right">
             <img src="img/05_form_function.svg" alt="form function">
@@ -385,7 +442,8 @@
     <div class="portraits">
         <div class="blg_left">
             All these values are fed to a machine learning algorithm to
-            <span class='hlg'>cluster</span> similar ET cells in groups. In Britain, this step allows us to synthesise over 300 characters in 16 classes.
+            <span class='hlg'>cluster</span> similar ET cells in groups. In Britain, this step allows us to synthesise
+            over 300 characters in 16 classes.
         </div>
         <div class="blg_right">
             <img src="img/06_clusters.svg" alt="clusters">
@@ -393,7 +451,9 @@
     </div>
     <div class="portraits">
         <div class="blg_left">
-            Cells belonging to the same class that are also geographically next to each other are then combined into a single geometry, generating a portion of land that we call a <span class='hlg'><em>spatial signature</em></span>.
+            Cells belonging to the same class that are also geographically next to each other are then combined into a
+            single geometry, generating a portion of land that we call a <span class='hlg'><em>spatial
+                    signature</em></span>.
         </div>
         <div class="blg_right">
             <img src="img/07_signatures.svg" alt="signatures">
@@ -402,7 +462,8 @@
     <div class="full last">
         <p>The result of this process is a map that divides the whole of Great Britain into consistent signatures.
         </p>
-        <button class="butt" onclick="location.href='http://urbangrammarai.xyz/great-britain/#'" style="display: inline">Explore the map</button>
+        <button class="butt" onclick="location.href='http://urbangrammarai.xyz/great-britain/#'"
+            style="display: inline">Explore the map</button>
         <button class="butt" onclick="location.href='#'" style="display:
                     inline">Jump back up</button>
     </div>
@@ -410,23 +471,32 @@
     <div class="full footer">
         <h2 id="what">Find out more</h2>
         <p>
-            The Urban Grammar is brought to you by Dani and Martin. We are always happy to start a conversation, get in touch with us via email or Twitter:
-            <ul>
-                <li> <a href='https://darribas.org'>Dani Arribas-Bel</a> |
-                    <a href='https://twitter.com/darribas'><code>@darribas</code></a>
-                    <br>
-                    <code>d.arribas-bel[at]liverpool.ac.uk</code> </li>
-                <li> <a href='https://martinfleischmann.net/'>Martin Fleischmann</a> |
-                    <a href='https://twitter.com/martinfleis'><code>@martinfleis</code></a> <br>
-                    <code>m.fleischmann[at]liverpool.ac.uk</code> </li>
-            </ul>
+            The Urban Grammar is brought to you by Dani and Martin. We are always happy to start a conversation, get in
+            touch with us via email or Twitter:
+        <ul>
+            <li> <a href='https://darribas.org'>Dani Arribas-Bel</a> |
+                <a href='https://twitter.com/darribas'><code>@darribas</code></a>
+                <br>
+                <code>d.arribas-bel[at]liverpool.ac.uk</code>
+            </li>
+            <li> <a href='https://martinfleischmann.net/'>Martin Fleischmann</a> |
+                <a href='https://twitter.com/martinfleis'><code>@martinfleis</code></a> <br>
+                <code>m.fleischmann[at]liverpool.ac.uk</code>
+            </li>
+        </ul>
         </p>
 
         <center>
-            <button class="butt" onclick="location.href='https://urbangrammarai.xyz'" style="display: inline">Project website</button>
-            <button class="butt" onclick="location.href='http://urbangrammarai.xyz/great-britain/#'" style="display: inline">Map of signatures</button>
-            <button class="butt" onclick="location.href='https://urbangrammarai.xyz/talks/'" style="display: inline">Talks</button>
-            <button class="butt" onclick="location.href='https://github.com/urbangrammarai'" style="display: inline">Code</button>
+            <button class="butt" onclick="location.href='https://urbangrammarai.xyz'" style="display: inline">Project
+                website</button>
+            <button class="butt" onclick="location.href='http://urbangrammarai.xyz/great-britain/#'"
+                style="display: inline">Map of signatures</button>
+            <button class="butt" onclick="location.href='https://doi.org/10.1038/s41597-022-01640-8'"
+                style="display: inline">Paper</button>
+            <button class="butt" onclick="location.href='https://urbangrammarai.xyz/talks/'"
+                style="display: inline">Talks</button>
+            <button class="butt" onclick="location.href='https://github.com/urbangrammarai'"
+                style="display: inline">Code</button>
         </center>
 
         </small>
@@ -435,13 +505,15 @@
                 <img src="img/gdsl.png" alt="GDSL" width="25%" style="margin-right: 20px; vertical-align: middle;">
             </a>
             <a href="https://www.liverpool.ac.uk/">
-                <img src="img/liv_logo.png" alt="University of Liverpool" width="25%" style="margin-right: 20px; vertical-align: middle">
+                <img src="img/liv_logo.png" alt="University of Liverpool" width="25%"
+                    style="margin-right: 20px; vertical-align: middle">
             </a>
             <a href="https://www.turing.ac.uk/">
                 <img src="img/ati_logo.png" alt="ATI" width="25%" style="vertical-align: middle">
             </a>
         </div>
-        <p class="copy">(c) Martin Fleischmann & Dani Arribas-Bel, Geographic Data Science Lab, University of Liverpool; The Alan Turing Institute</p>
+        <p class="copy">(c) Martin Fleischmann & Dani Arribas-Bel, Geographic Data Science Lab, University of Liverpool;
+            The Alan Turing Institute</p>
     </div>
 </body>
 
